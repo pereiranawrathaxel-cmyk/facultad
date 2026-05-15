@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 int main(){
-    int a=3,b=2,c=1,d,e,varl_ent;
-    float m=2.5,n=5.4,r,s, varl_float;
+    int d,varl_ent; //a=3,b=2,c=1,e
+    float m=2.5,n=5.4/*,r,s,varl_float*/;
+
     printf("1- Teniendo en cunetas la sig declaracion, la forma en que se inicializan las variables y que se ejeucte las operciones de manera secuencial tal como fueron enumeraods\nint a=3%cb=1%cc=1%cd%ce%c\nfloat m=2,5%cn=5.4%cr%cs%c\n\n",44,44,44,44,59,44,44,44,59);
     printf("ir escribiendo la salidas parciales en la tabla de continuacion\n");
     printf("1. d=m;         | 9. e=b/c;         | 17. s=3.0+4;      | 25. r=a+1.0;\n");
@@ -39,7 +40,7 @@ int main(){
     
     printf("Ingese el resultadoa para el 1. d=m ");
     scanf("%d",&varl_ent);
-    if(varl_ent==(d=m)){
+    if(varl_ent==(d=(int)m)){
         printf("1- Teniendo en cunetas la sig declaracion, la forma en que se inicializan las variables y que se ejeucte las operciones de manera secuencial tal como fueron enumeraods\nint a=3%cb=1%cc=1%cd%ce%c\nfloat m=2,5%cn=5.4%cr%cs%c\n\n",44,44,44,44,59,44,44,44,59);
         printf("ir escribiendo la salidas parciales en la tabla de continuacion\n");
         printf("1. d=m;  | %d    | 9. e=b/c;         | 17. s=3.0+4;      | 25. r=a+1.0;\n",varl_ent);
